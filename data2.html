@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/utility.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/component.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/data.css">
+    <link rel="stylesheet" href="css/component.css">
 </head>
 <body>
     <nav class="nav m-120">
@@ -23,12 +23,205 @@
         </div>
     </nav>
 
-    <div class="body__wrapper m-120">
+    <div class="m-120">
         <h1 class="hero__heading">Seamless Data Entry for <span class="c-pr">Quick and Easy</span> Information Submission</h1>
+
+        <div class="dataform m-77">
+            <div class="dataform__heading--page2">
+
+                <div class="dataform__heading">
+                    <div class="dataform__heading__title">Additional Details</div>
+                    <div class="dataform__heading__stepcount">Step 2 of 3</div>
+                </div>
+            </div>
+            <div class="dataform__body">
+                <form action="data3.html" class="dataform__form">
+                    <!-- radio starts -->
+                    <div class="dataform__input">
+                        <p>Daily mood</p>
+                        <div class="dataform__input-radio">
+                            <label>
+                                <input type="radio" name="dataform__label-DailyMood" checked><span class="dataform__input__radio-label">unhappy</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-DailyMood"><span class="dataform__input__radio-label">neutral</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-DailyMood"><span class="dataform__input__radio-label">content</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-DailyMood"><span class="dataform__input__radio-label">very happy</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- radio ends -->
+                    <div class="dataform__input">
+                        <label for="dataform__label-AdditionalNotes">Additional notes</label>
+                        <input type="text" name="dataform__label-AdditionalNotes" id="dataform__label-AdditionalNotes">
+                    </div>
+                    <div class="dataform__input">
+                        <label for="dataform__label-HeartRateInBPM">Heart rate (bpm)</label>
+                        <input type="number" name="dataform__label-HeartRateInBPM" id="dataform__label-HeartRateInBPM">
+                    </div>
+                    <div class="dataform__input">
+                        <label for="dataform__label-BloodPressureInMmHg">Blood pressure (mmHg)</label>
+                        <input type="number" name="dataform__label-BloodPressureInMmHg" id="dataform__label-BloodPressureInMmHg">
+                    </div>
+                    
+
+                    <div class="dataform__input">
+                        <label for="dataform__label-TemperatureInC">Temperature (°C)</label>
+                        <input type="number" name="dataform__label-TemperatureInC" id="dataform__label-TemperatureInC">
+                    </div>
+                    <div class="dataform__input">
+                        <label for="dataform__label-WeightInKg">Weight (kg)</label>
+                        <input type="number" name="dataform__label-WeightInKg" id="dataform__label-WeightInKg">
+                    </div>
+                    <div class="dataform__input">
+                        <label for="dataform__label-Height">Height</label>
+                        <input type="text" name="dataform__label-Height" id="dataform__label-Height">
+                    </div>
+                    <div class="dataform__input">
+                        <label for="dataform__label-Medication">Medication</label>
+                        <input type="text" name="dataform__label-Medication" id="dataform__label-Medication">
+                    </div>
+                    <div class="dataform__input">
+                        <label for="dataform__label-Supplements">Supplements</label>
+                        <input type="text" name="dataform__label-Supplements" id="dataform__label-Supplements">
+                    </div>
+
+                    
+
+                    <!-- radio starts -->
+                    <div class="dataform__input">
+                        <p>Smoking habit</p>
+                        <div class="dataform__input-radio">
+                            <label>
+                                <input type="radio" name="dataform__label-SmokingHabit" checked><span class="dataform__input__radio-label">non smoker</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-SmokingHabit"><span class="dataform__input__radio-label">occasional smoker</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-SmokingHabit"><span class="dataform__input__radio-label">regular smoker</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-SmokingHabit"><span class="dataform__input__radio-label">former smoker</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- radio ends -->
+
+                    <!-- radio starts -->
+                    <div class="dataform__input">
+                        <p>Drinking habit</p>
+                        <div class="dataform__input-radio">
+                            <label>
+                                <input type="radio" name="dataform__label-DrinkingHabit" checked><span class="dataform__input__radio-label">non drinker</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-DrinkingHabit"><span class="dataform__input__radio-label">occasional drinker</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-DrinkingHabit"><span class="dataform__input__radio-label">regular drinker</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-DrinkingHabit"><span class="dataform__input__radio-label">former drinker</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- radio ends -->
+
+                    <!-- radio starts -->
+                    <div class="dataform__input">
+                        <p>Caffeine Consumption</p>
+                        <div class="dataform__input-radio">
+                            <label>
+                                <input type="radio" name="dataform__label-CaffeineConsumption" checked><span class="dataform__input__radio-label">no consumption</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-CaffeineConsumption"><span class="dataform__input__radio-label">occasional consumption</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-CaffeineConsumption"><span class="dataform__input__radio-label">regular consumption</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-CaffeineConsumption"><span class="dataform__input__radio-label">heavy consumption</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- radio ends -->
+
+                    <!-- radio starts -->
+                    <div class="dataform__input">
+                        <p>Dietary Preference</p>
+                        <div class="dataform__input-radio">
+                            <label>
+                                <input type="radio" name="dataform__label-DietaryPreference" checked><span class="dataform__input__radio-label">vegetarian</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-DietaryPreference"><span class="dataform__input__radio-label">vegan</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-DietaryPreference"><span class="dataform__input__radio-label">gluten-free</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-DietaryPreference"><span class="dataform__input__radio-label">no preference</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- radio ends -->
+
+
+                    <!-- radio starts -->
+                    <div class="dataform__input">
+                        <p>Exercise habit</p>
+                        <div class="dataform__input-radio">
+                            <label>
+                                <input type="radio" name="dataform__label-ExerciseHabit" checked><span class="dataform__input__radio-label">no exercise</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-ExerciseHabit"><span class="dataform__input__radio-label">light exercise</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-ExerciseHabit"><span class="dataform__input__radio-label">moderate exercise</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="dataform__label-ExerciseHabit"><span class="dataform__input__radio-label">intense exercise</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- radio ends -->
+
+                    
+                    
+                    
+            
+                    
+                    <div class="dataform__buttons">
+                        <div class="dataform__buttons__cancle">
+                            <button type="reset" class="root__btn-cancle">Cancle</button>
+                        </div>
+                        <div class="dataform__buttons__progress">
+                            <!-- <div class="dataform__buttons__prev"></div> -->
+                            <div class="dataform__buttons__next">
+                                <button type="submit" class="root__btn-secondary">
+                                    <span>Next step</span>
+                                    <img src="asset/arrow_right.svg" alt="">
+                                </button>
+                            </div>
+                            <!-- <div class="dataform__buttons__submit"></div> -->
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-    <a href="data3.html">
-        <img src="asset/ff2.svg" class="formmm">
-    </a>
+
+
+
+
+
 
     <footer class="footer m-120">
         <div class="footer__top">

@@ -11,7 +11,7 @@
     <title>HealthPulse - Register now!</title>
 </head>
 <body>
-    <div class="body__wrapper m-120">
+    <main class="body__wrapper m-120">
         <nav class="nav">
             <div class="nav__logo">
                 <img src="asset/logo1.svg" alt="HealthPulse">
@@ -24,30 +24,32 @@
         </nav>
         <h1 class="hero__heading">Start Your Wellness Journey with <span class="c-pr">HealthPulse</span></h1>
 
-        <div class="formm">
+        <section class="formm">
 
-            <form action="#">
-                <div class="form__text">
+            <form action="#" autocomplete="off">
+                <article class="form__text">
                     <p>First name</p>
-                    <input type="text" name="" id="">
-                </div>
-                <div class="form__text">
+                    <input type="text" placeholder="enter first name" required>
+                </article>
+                <article class="form__text">
                     <p>Last name</p>
-                    <input type="text" name="" id="">
-                </div>
-                <div class="form__text">
+                    <input type="text" placeholder="enter last name" required>
+                </article>
+                <article class="form__text">
                     <p>Email</p>
-                    <input type="email" name="" id="">
-                </div>
-                <div class="form__text">
+                    <input type="email" placeholder="enter email id" required>
+                </article>
+                <article class="form__text">
                     <p>Password</p>
-                    <input type="password" name="" id="">
-                </div>
+                    <input type="password" required>
+                </article>
             </form>
-            <a href="dashboard.html"><button class="root__btn-primary formbtn" ><span>Register now</span><img src="asset/arrow_right.svg" alt="->"></button></a>
-            <p class="form__end">Existing user? login now</p>
-        </div>
-    </div>
+            <aside>
+                <a href="dashboard.html"><button class="root__btn-primary formbtn" ><span>Register now</span><img src="asset/arrow_right.svg" alt="->"></button></a>
+                <p class="form__end">Existing user? login now</p>
+            </aside>
+        </section>
+    </main>
 
     <footer class="footer m-120">
         <div class="footer__top">
