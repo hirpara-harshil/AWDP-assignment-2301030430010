@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Kanit:wght@800&family=Karla:wght@300&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sintony&family=Sora:wght@400;500&family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+
+*{
+    font-family: nunito;
+}
+.body__wrapper{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.nav{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero{
+    display: flex;
+    margin-top: 117px;
+}
+.hero__left{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.hero__heading , .hero__subheading{
+    font-size: 58px;
+    font-weight: bold;
+    max-width: 640px;
+    line-height: 108%;
+}
+.hero__subheading{
+    font-size: 20px;
+    color:#272727;
+    font-weight:normal;
+}
+
+.explore{
+    margin-top: 160px;
+}
+.explore__heading{
+    font-size: 52px;
+}
+.explore__body{
+    display: flex;
+    gap: 18px;
+    margin-top: 75px;
+    justify-content: center;
+}
+.explore__cards{
+    background-color: #f2f2f7;
+    padding: 28px;
+    text-align: center;
+}
+.explore__cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    
+}
+.explore__cards__text{
+    max-width: 200px;
+}
+.explore__cards__icon{
+    margin-bottom: 22px;
+}
+.explore__cards-active{
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+}
+
+.feature{
+    margin-top: 235px;
+    display: flex;
+    gap: 53px;
+    align-items: center;
+}
+.feature__heading{
+    font-size: 47px;
+    line-height: 119%;
+    margin-bottom: 42px;
+}
+.feature__body{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+.feature__title{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.feature__description{
+    color: #272727;
+    font-size: 18px;
+}
+
+.steps{
+    margin-top: 245px;
+    display: flex;
+    flex-direction: column;
+    gap: 102px;
+    align-items: center;
+}
+.steps__heading{
+    font-size: 47px;
+}
+
+.testimonial{
+    margin-top: 250px;
+    margin-bottom: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.testimonial__heading{
+    font-size: 47px;
+    line-height: 119%;
+    font-weight: bold;
+    margin-bottom: 82px;
+}
+.testimonial__review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 62px;
+}
+.testimonial__review , .testimonial__CTA__text{
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 140%;
+    max-width: 540px;
+}
+.testimonial__review > span{
+    font-family: "Stint Ultra Condensed";
+    font-size: 193px;
+}
+.testimonial__CTA{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.testimonial__review > p{
+    margin-bottom: 23px;
+}
+.testimonial__review> :nth-child(2){
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.testimonial__review> :nth-child(2) > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.testimonial__review> :nth-child(2) > :nth-child(2) > *{
+    margin:  -5px 0;
+
+}
+.testimonial__review> :nth-child(2) > :nth-child(2) > :first-of-type{
+    font-weight: bold;
+
+}
+.testimonial__review__icon{
+    margin-right: 8px;
+}
+
+
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#A20730;
+    color: white;
+}
+.footer__top{
+    width:100%;
+    margin-bottom: 94px;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__address__logo{
+    margin-top: 32px;
+}
+.footer__address__details{
+    max-width: 212px;
+    font-size: 17px;
+    line-height: 140%;
+    font-weight: 300;
+    margin-top: 17px;
+    
+}
+.footer__link{
+    display: flex;
+    margin-top: 37px;
+    gap: 100px;
+}
+.footer__link__col__heading{
+    font-size: 19px;
+    margin-bottom: 23px;
+    font-weight: bold;
+}
+.footer__link__col__data{
+    font-size: 17px;
+    color: #ffd1dd;
+    text-decoration: underline;
+    line-height: 200%;
+    max-width: 100px;
+}
+.footer__link__col__data-community{
+    max-width: 170px;
+}
+.footer__bottom{
+    margin-bottom: 33px;
+}

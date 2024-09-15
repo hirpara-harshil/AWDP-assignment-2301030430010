@@ -1,0 +1,11 @@
+:root{
+    --color-primary: #DF2053;
+    --color-secondary: #286FB4;
+    --color-white:#fff;
+}
+.m-120{
+    margin: auto 120px;
+}
+.c-pr{
+    color: var(--color-primary);
+}

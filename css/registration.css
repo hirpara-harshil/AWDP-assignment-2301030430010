@@ -1,0 +1,46 @@
+.hero__heading{
+    font-size: 52px;
+    margin: auto;
+    max-width: 740px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+button.formbtn{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 24px;
+    
+}
+input{
+    width: 100%;
+    height: 45px;
+}
+.formm{
+    margin: auto;
+    width: 443px;
+}
+form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items:flex-start;
+}
+.form__text{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 7px;
+}
+a{
+    text-decoration: none; 
+}
+
+.form__end{
+    font-size: 16px;
+    margin-top: 13px;
+    margin-bottom: 301px;
+    
+}

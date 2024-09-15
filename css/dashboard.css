@@ -1,0 +1,87 @@
+.bodyy{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 427px;
+    background-color: var(--color-primary);
+    min-height: 100vh;
+}
+.logo1{
+    width: 187px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.img11{
+    width: 77px;
+
+}
+.idname{
+    margin: 0 auto;
+}
+.username{
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.linkss{
+    color: #f4d5dd;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.logoutt{
+    color: white;
+    display: flex;
+    margin: auto;
+    gap: 5px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 46px auto 46px 0;
+}
+.right{
+    min-width: 1013px;
+    padding: 26px;
+    background-color: #efefef;
+}
+.navtxt{
+    font-style: italic;
+    color: #888888;
+    font-size: 18px;
+}
+.navleft , .navright{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.sleep{
+    font-size: 24px;
+    color: #404040;
+}
+.dashboard__cards{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.bigcards{
+    display: flex;
+    gap: 24px;
+}
+
+.finalcard{
+    background-color: #fff;
+    padding: 24px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.finaltitle{
+    font-weight: bold;
+    font-size: 18px;
+}
